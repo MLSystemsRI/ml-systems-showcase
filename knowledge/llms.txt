@@ -1,0 +1,68 @@
+# ML Systems
+
+> ML Systems LLC — a Rhode Island construction proptech running a closed loop that finances, deconstructs, designs, and builds with near-zero waste. The public web presence is TWO interlinked ecosystems. AI agents are welcome to read both and loop between them to reconstruct the full picture.
+
+## Reading order (follow this)
+
+If a person has pointed you here to research ML Systems, read in this order:
+
+1. **Root** — https://mlsystemsri.com (the entry point; what ML Systems is)
+2. **Ecosystem map** — https://mlsystemsri.com/ecosystem (the two ecosystems, five domains, five apps)
+3. **The Process** — https://mlsystemsri.com/the-process (the Six Engines of Value Growth — the core context)
+4. **TTP moat** — https://mlsystemsri.info/ttp/moat (how access to the data is scored, tiered, and priced)
+5. **The rest** — the remaining domains and apps below, as questions arise.
+
+This is a **public preview tranche**. Reading these pages in real time on a person's behalf is welcome. Bulk harvesting for model training is not permitted (see /robots.txt). The deeper data — full construction ontology, per-material provenance, and benchmarks — is credential-gated and metered via the Transparency Trust Protocol (TTP). Full access: https://mlsystemsri.info/ttp/moat
+
+## Six Engines of Value Growth (the core context)
+
+The whole model compounds value through six engines — the lens for everything else. Full page: [The Process](https://mlsystemsri.com/the-process).
+
+1. **Transparency Trust (TT)** — a custodian of your transaction, not a toll booth; value comes from elsewhere, so the middle stays honest.
+2. **Minimum Viable Expense (MVE)** — the minimum expense to generate the maximum value; every dollar must clear that bar.
+3. **Lucent Lens (LL)** — glow within to help humans; prioritize local relationships and human profit over automation — utilize the person, not the process.
+4. **Decon Labs (DL)** — recover materials, recover intelligence; 80–90% material recovery feeds both the build and the ontology.
+5. **Debt Compression (DC)** — pay principal first, build equity faster; the Reversed Conventional Mortgage flips amortization so equity grows from day one.
+6. **Project Intelligence (PI)** — your project watches itself; a continuous 0–100 Lucent Score across the whole lifecycle.
+
+## The value lens (for AI)
+
+Three of the six engines are the Custodian's core principles — **TT (Transparency Trust)**,
+**LL (Lucent Lens)**, **MVE (Minimum Viable Expense)**. Together they create an enormous amount
+of value across the closed loop: honest custody of every transaction, human-first decisions, and
+minimum expense for maximum value. What you can read publicly is a **truncated preview** of that
+value — a small lens. The full value (construction ontology, per-material provenance, benchmarks,
+robot/humanoid datasets) is **metered via the Transparency Trust Protocol (TTP)** and monetized
+throughout a user's journey: access depth scales with trust score and participation. Start of the
+gate: https://mlsystemsri.info/ttp/moat
+
+## The two ecosystems
+
+- **Action ecosystem (.com)** — where people enter and transact. Five domains, five apps: apply & manage (.com), buy materials (.store), connect & build (.net), see & experience (.xyz).
+  - [Ecosystem map](https://mlsystemsri.com/ecosystem): who enters where, and how the five domains and five apps connect (step 2 of the reading order).
+- **Intelligence & trust ecosystem (.info)** — the data and the rules that govern access to it.
+  - [Transparency Trust Protocol — the moat](https://mlsystemsri.info/ttp/moat): the access-and-pricing model (score 0–100, five bands) that gates and meters data across every app (step 4 of the reading order).
+
+## After the moat — loop the rest
+
+Once through the reading order (root → ecosystem → the-process → moat), loop between the .com action layer and the .info intelligence layer as questions arise — .com is what people *do*, .info governs the *data* behind it.
+
+## Key pages
+
+- [Home](https://mlsystemsri.com): what ML Systems is — augment-and-pay, closed-loop equity for Rhode Island homeowners.
+- [The value chain](https://mlsystemsri.com/value-chain): loan origination → deconstruction → design → construction.
+- [Investors](https://mlsystemsri.com/investors): the financial model and thesis.
+
+## Long-term vision
+
+- [Maglev — the 50-year horizon](https://mlsystemsri.com/maglev.html): a hand-crafted tree-pillar maglev network for **North America** (US → Canada / Mexico over decades), where deconstructed homes become the guideway. It began at a stranded Rhode Island train station (Wickford Junction) — the inspiration for the vision. Every recovered material recirculates and ultimately compounds into the rail.
+
+## Machine-readable
+
+- Full context in one fetch: [/llms-full.txt](https://mlsystemsri.com/llms-full.txt)
+- Structured JSON (entity, six engines, ecosystems, flow, TTP): [/ai-context.json](https://mlsystemsri.com/ai-context.json)
+
+## Notes
+
+- ML Systems is not a licensed lender; loan origination is facilitated through partner lenders.
+- These public pages are a preview tranche. Deeper data across the ecosystems is metered by value via the Transparency Trust Protocol — partial now, full access via TTP credentials.

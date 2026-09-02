@@ -13,6 +13,11 @@ A construction-technology platform that guides a homeowner through the full valu
 [![Try the app](https://img.shields.io/badge/Try%20it-try.mlsystemsri.com-1098ad?style=for-the-badge)](https://try.mlsystemsri.com)
 [![Google Play](https://img.shields.io/badge/Google%20Play-Available-2b8a3e?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store)
 
+### ▶ Try the live demo — [try.mlsystemsri.com](https://try.mlsystemsri.com)
+
+**No install needed.** The full ML Systems app runs in your browser — add a home from an address
+and walk the value chain end to end.
+
 </div>
 
 ---
@@ -74,6 +79,14 @@ The company organizes its thinking as three complementary "neural nets":
 - **Physical** — Manual Labor → Measured Learning → Machine Learning (hands-on execution to automation)
 - **Financial** — Language Modeler · Financial Architect · Accounting Engineer (strategy, capital, GAAP)
 - **Community** — Events · Creativity · Generational Wealth (growth through the West Coast Swing dance community)
+
+## Knowledge & data
+
+This repo includes a public, AI-readable [`knowledge/`](knowledge/) layer — a company overview
+(`llms.txt`, `ai-context.json`) and an [SEO data set](knowledge/seo/) (structured business profile,
+SEO brief, and drop-in schema.org data). It's a deliberate **preview tranche**; the deeper
+construction ontology, per-material provenance, and benchmarks are metered via the
+[Transparency Trust Protocol](https://mlsystemsri.info).
 
 ## Links
 

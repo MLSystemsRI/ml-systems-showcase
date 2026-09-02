@@ -1,0 +1,50 @@
+{
+  "$comment": "Drop-in schema.org structured data for ML Systems. Add this as a <script type=\"application/ld+json\"> block in the site <head> so Google can render a rich result / knowledge panel. Replace telephone before publishing. Keep the URL, address, and name identical to the Google Business Profile.",
+  "@context": "https://schema.org",
+  "@type": "GeneralContractor",
+  "name": "ML Systems",
+  "legalName": "ML Systems LLC",
+  "url": "https://mlsystemsri.com",
+  "logo": "https://mlsystemsri.com/og.png",
+  "image": "https://mlsystemsri.com/ml-hero.jpg",
+  "description": "A closed-loop Rhode Island construction company that finances, deconstructs, designs, and builds — so every dollar spent compounds into equity, not interest, with near-zero waste.",
+  "slogan": "Tougher Problems Inspire Creative Solutions",
+  "founder": { "@type": "Person", "name": "Sal Parvez" },
+  "naics": "236115",
+  "telephone": "TODO-set-phone",
+  "email": "salparvez@mlsystemsri.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "37 Whitehall Dr",
+    "addressLocality": "Warwick",
+    "addressRegion": "RI",
+    "postalCode": "02886",
+    "addressCountry": "US"
+  },
+  "areaServed": {
+    "@type": "State",
+    "name": "Rhode Island"
+  },
+  "sameAs": [
+    "https://try.mlsystemsri.com",
+    "https://mlsystemsri.store",
+    "https://www.yelp.com/biz/ml-systems-warwick",
+    "https://www.facebook.com/people/ML-Systems/61584698819319/",
+    "https://www.bizapedia.com/ri/ml-systems-llc.html",
+    "https://github.com/MLSystemsRI/ml-systems-showcase"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "ML Systems Services",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Construction Loan Origination" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Home Deconstruction" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Material Recovery & Salvage" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reclaimed Building Materials" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "New Home Construction" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Design & Build" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sustainable / Green Building" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Home Additions & Rebuilds" } }
+    ]
+  }
+}
