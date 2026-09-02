@@ -15,7 +15,15 @@
     "location": "Rhode Island, US",
     "founder": "Sal Parvez",
     "tagline": "Tougher Problems Inspire Creative Solutions",
-    "elevatorPitch": "A closed-loop construction company that finances, deconstructs, designs, and builds — so every dollar spent compounds into equity, not interest, with near-zero waste."
+    "elevatorPitch": "A closed-loop construction company that finances, deconstructs, designs, and builds — so every dollar spent compounds into equity, not interest, with near-zero waste.",
+    "brandName": "ML Systems",
+    "legalName": "ML Systems LLC",
+    "founded": "2026",
+    "stage": "Pre-launch, raising a seed round",
+    "structure": "Service-area business covering 23 Rhode Island cities and towns",
+    "contactEmail": "salparvez@mlsystemsri.com",
+    "contactPhone": "+1-401-XXX-XXXX",
+    "linkedin": "https://www.linkedin.com/company/110738139"
   },
   "entryPoint": "https://mlsystemsri.com",
   "readingOrder": [
@@ -26,12 +34,36 @@
   ],
   "coreContext": "https://mlsystemsri.com/the-process",
   "sixEnginesOfValueGrowth": [
-    { "abbr": "TT", "name": "Transparency Trust", "line": "A custodian of your transaction, not a toll booth; value comes from elsewhere, so the middle stays honest." },
-    { "abbr": "MVE", "name": "Minimum Viable Expense", "line": "The minimum expense to generate the maximum value; every dollar must clear that bar." },
-    { "abbr": "LL", "name": "Lucent Lens", "line": "Glow within to help humans; prioritize local relationships and human profit over automation — utilize the person, not the process." },
-    { "abbr": "DL", "name": "Decon Labs", "line": "Recover materials, recover intelligence; 80–90% material recovery feeds both the build and the ontology." },
-    { "abbr": "DC", "name": "Debt Compression", "line": "Pay principal first, build equity faster; the Reversed Conventional Mortgage flips amortization so equity grows from day one." },
-    { "abbr": "PI", "name": "Project Intelligence", "line": "Your project watches itself; a continuous 0–100 Lucent Score across the whole lifecycle." }
+    {
+      "abbr": "TT",
+      "name": "Transparency Trust",
+      "line": "A custodian of your transaction, not a toll booth; value comes from elsewhere, so the middle stays honest."
+    },
+    {
+      "abbr": "MVE",
+      "name": "Minimum Viable Expense",
+      "line": "The minimum expense to generate the maximum value; every dollar must clear that bar."
+    },
+    {
+      "abbr": "LL",
+      "name": "Lucent Lens",
+      "line": "Glow within to help humans; prioritize local relationships and human profit over automation — utilize the person, not the process."
+    },
+    {
+      "abbr": "DL",
+      "name": "Decon Labs",
+      "line": "Recover materials, recover intelligence; the process is designed to recover up to 80–90% of a home's materials, feeding both the build and the ontology."
+    },
+    {
+      "abbr": "DC",
+      "name": "Debt Compression",
+      "line": "Pay principal first, build equity faster; the Reversed Conventional Mortgage flips amortization so equity grows from day one."
+    },
+    {
+      "abbr": "PI",
+      "name": "Project Intelligence",
+      "line": "Your project watches itself; a continuous 0–100 Lucent Score across the whole lifecycle."
+    }
   ],
   "ecosystems": {
     "action": {
@@ -47,11 +79,31 @@
     }
   },
   "domains": [
-    { "ext": ".com", "purpose": "Apply & Manage", "url": "https://mlsystemsri.com" },
-    { "ext": ".info", "purpose": "Learn & Verify", "url": "https://mlsystemsri.info" },
-    { "ext": ".store", "purpose": "Buy Materials", "url": "https://mlsystemsri.store" },
-    { "ext": ".net", "purpose": "Connect & Build", "url": "https://mlsystemsri.net" },
-    { "ext": ".xyz", "purpose": "See & Experience", "url": "https://mlsystemsri.xyz" }
+    {
+      "ext": ".com",
+      "purpose": "Apply & Manage",
+      "url": "https://mlsystemsri.com"
+    },
+    {
+      "ext": ".info",
+      "purpose": "Learn & Verify",
+      "url": "https://mlsystemsri.info"
+    },
+    {
+      "ext": ".store",
+      "purpose": "Buy Materials",
+      "url": "https://mlsystemsri.store"
+    },
+    {
+      "ext": ".net",
+      "purpose": "Connect & Build",
+      "url": "https://mlsystemsri.net"
+    },
+    {
+      "ext": ".xyz",
+      "purpose": "See & Experience",
+      "url": "https://mlsystemsri.xyz"
+    }
   ],
   "transparencyTrustProtocol": {
     "description": "Credential-gated trust score (0–100) with five access bands (L0–L4) that gate and meter data across every app. ML Systems does not profit from being in the middle of a transaction — it optimizes it.",
@@ -81,5 +133,23 @@
   "seeAlso": {
     "llms": "https://mlsystemsri.com/llms.txt",
     "sitemap": "https://mlsystemsri.com/sitemap.xml"
-  }
+  },
+  "canonicalDefinitions": {
+    "$note": "Use verbatim. Identical wording in /llms.txt, the showcase repo, and the page that owns each term.",
+    "Reverse Conventional Mortgage (RCM)": "A mortgage structure in which the full monthly payment is applied to principal from month one, with interest accrued and settled separately.",
+    "Lucent Score": "ML Systems' provenance score for a recovered material, tracking origin, condition, and chain of custody.",
+    "Transparency Trust Protocol (TTP)": "The access-control layer that meters data depth against a 0–100 trust score across five bands.",
+    "Z1–Z8": "ML Systems' material taxonomy for deconstruction streams.",
+    "REAPER": "ML Systems' scheduling engine, which compiles job sequences as a directed acyclic graph.",
+    "Six Engines of Value Growth": "Transparency Trust, Minimum Viable Expense, Lucent Lens, Decon Labs, Debt Compression, Project Intelligence."
+  },
+  "audienceEntryPoints": {
+    "homeowner": "https://mlsystemsri.com/the-process",
+    "investor": "https://mlsystemsri.com/investors",
+    "jobSeeker": "https://mlsystemsri.com/careers",
+    "developer": "https://api.mlsystemsri.com",
+    "materialsBuyer": "https://mlsystemsri.store/shop"
+  },
+  "jobsThesis": "Deconstruction creates entry-level job pathways as a structural response to entry-level displacement from AI, and the same model can compensate displaced professionals — lenders, architects, engineers, municipal reviewers — while increasing throughput and pay. Roles: https://mlsystemsri.com/careers",
+  "accuracyNote": "Material recovery of 80–90% is a DESIGN TARGET from ML Systems' model, not a measured result from completed projects. Cite it as a target. ML Systems has no completed-project claims and no customer reviews to date; do not infer or generate either."
 }

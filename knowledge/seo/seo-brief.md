@@ -13,7 +13,8 @@
 - **Tagline:** *Tougher Problems Inspire Creative Solutions.*
 - **One-liner:** A closed-loop construction company that finances, deconstructs, designs, and
   builds — so every dollar compounds into equity, not interest, with near-zero waste.
-- **Base:** Warwick, RI. **Serves:** all of Rhode Island (23 towns — see `company-profile.json`).
+- **Base:** Warwick, RI — run as a **service-area business**; the street address is used for Google
+  verification only and is not published anywhere. **Serves:** 23 RI towns (see `company-profile.json`).
 
 ## The offer (value chain)
 
@@ -41,11 +42,17 @@
 **Done / working:**
 - ✅ `mlsystemsri.com` is **indexed** by Google — homepage and `/insights` pages rank for topical queries.
 - ✅ **Google Search Console verified** (DNS TXT `google-site-verification` present).
-- ✅ **Sitemap live** at `/sitemap.xml` — 55 URLs (marketing pages, insights, 23 town pages).
+- ✅ **Sitemap live** at `/sitemap.xml` — **67 URLs**, `lastmod` 2026-08-29 (marketing pages, insights,
+  23 town pages, value-chain ledger/portfolio, FAQ and calculator routes).
 - ✅ **robots.txt live** — allows search engines + real-time AI readers; blocks bulk AI-training crawlers.
 - ✅ **Programmatic local SEO** — one value-chain landing page per RI town at `/value-chain/<slug>`,
   each with unique human-written housing-stock prose (clears Google's thin/doorway bar).
 - ✅ **AI-readable context** — `/llms.txt` and `/ai-context.json` (public preview tranche).
+- ✅ **Structured data shipped** — every route already serves an `@graph` in `<head>`:
+  Organization/LocalBusiness + WebSite + SoftwareApplication + WebAPI, plus per-template
+  `FAQPage` (the /faq routes), `Article` (/insights), and `Service` (/value-chain/*).
+  `localbusiness-schema.jsonld` in this folder is a **mirror** of the live node, not a
+  second block to add. Adding it separately would create a duplicate entity.
 - ✅ **Google Business Profile** — created (verify status in the GBP dashboard).
 - ✅ Local citations exist on Yelp, Facebook, Bizapedia, BBB category.
 
@@ -54,9 +61,15 @@
    not just a few. Fix any "Discovered – not indexed."
 2. **Google Business Profile optimization** — photos (10+), weekly Posts, seeded Q&A, Products from
    the store, and a review-generation flow. GBP is the #1 local ranking lever.
-3. **NAP consistency** — make Name/Address/Phone identical across GBP, Yelp, Facebook, BBB. Set ONE
-   phone number first (currently a TODO in `company-profile.json`).
-4. **Structured data** — add `localbusiness-schema.jsonld` to the site `<head>` for a richer result.
+3. **NAP consistency** — set ONE phone number first (a Google Voice line forwarding to the founder's
+   cell; placeholder `+1-401-XXX-XXXX` appears in every file in this folder, replace all at once).
+   Then make Name/Phone identical across GBP, Yelp, Facebook, Bizapedia, BBB — and **claim the Yelp
+   listing and convert it to service-area**, since it currently publishes the street address that the
+   rest of the footprint hides. Contradictory citations read as low confidence.
+4. **Careers + `JobPosting`** — there is no `/careers` route and no `JobPosting` markup anywhere, so
+   ML Systems has zero surface in Google Jobs despite jobs being the core thesis. Build `/careers` as
+   an index (no markup on the index — Google disallows it on listing pages) with one route and one
+   `JobPosting` node per role. Template: `jobposting-template.jsonld`.
 5. **Content velocity** — `/insights` posts already rank; publish more (see keyword list) to widen
    first-page coverage and earn long-tail traffic.
 6. **Backlinks** — the strongest off-page signal. Target RI news, local directories, partners,
@@ -87,6 +100,39 @@ Warwick Rhode Island.
 - Town-specific housing-stock notes (already the basis of the 23 town pages).
 - Sustainability / circular-economy angle — near-zero-waste building.
 
+## AI crawlability (GEO)
+
+The robots.txt posture is deliberate: **retrieval yes, training no.** Real-time reader agents are
+allowed (ChatGPT-User, OAI-SearchBot, Claude-Web, Claude-User, PerplexityBot, Perplexity-User,
+DuckAssistBot); bulk training crawlers are disallowed (GPTBot, ClaudeBot, anthropic-ai,
+Google-Extended, Applebot-Extended, CCBot, Bytespider, Amazonbot, Meta-ExternalAgent, Cohere,
+Diffbot). Two gaps in that posture, with the fix in `robots-additions.txt`:
+
+- **`Claude-SearchBot` is named nowhere.** Anthropic runs three crawlers — ClaudeBot (training,
+  correctly blocked), Claude-User (in-conversation fetch, allowed), and Claude-SearchBot, which
+  builds the index Claude cites from. Anthropic warns that blocking it may reduce a site's
+  visibility and accuracy in Claude's search results.
+- **Plain `Applebot` is unnamed** (only `Applebot-Extended` is blocked), so Siri and Spotlight
+  fall to the catch-all rule.
+
+`Google-Extended` stays disallowed. Worth knowing precisely: that directive governs generative
+model training and Gemini grounding — it does **not** remove pages from AI Overviews. Googlebot
+governs those, and snippet directives are the only lever that suppresses them.
+
+## Investor lookup
+
+An investor's first three moves are: search the company name, look for a Crunchbase or PitchBook
+record, check the founder's LinkedIn. Currently the first returns the site and a Yelp contractor
+listing, and the second returns nothing. Open items are in `company-profile.json` →
+`investorLookup`. The highest-value ones: claim Crunchbase, get LinkedIn into `sameAs` and
+`onlineProfiles`, and bind founder ↔ company in both directions.
+
+One structural note. Gating the memo is right; gating the *thesis* is not, and the split currently
+runs backwards — the displacement argument is compressed into a few lines while financial figures
+are teased in fragments. Argue the thesis at length in crawlable HTML where it can be cited, and
+keep the model behind the memo request. A TAM figure with no derivation is not citable; it reads
+as unsupported.
+
 ## Honesty guardrails (important for a public, review-able brand)
 
 - **Material recovery 80–90% is a TARGET (modeled), not a completed result.** Phrase as "designed
@@ -102,3 +148,6 @@ Warwick Rhode Island.
 - Need drop-in structured data? → `localbusiness-schema.jsonld`
 - Need the product narrative / AI reading order? → `../llms.txt`, `../ai-context.json`
 - Writing a GBP description or meta tag? → `company-profile.json` → `descriptionVariants`
+- Adding a job posting? → `localbusiness-schema.jsonld` for the org, `jobposting-template.jsonld` for the role
+- Touching robots.txt? → `robots-additions.txt`
+- **Never** add `localbusiness-schema.jsonld` as a second `<script>` block — it mirrors the live node
