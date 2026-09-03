@@ -1,3 +1,12 @@
+> # ⚠️ This repo has moved
+>
+> The canonical public ML Systems repository is now
+> **[MLSystemsRI/ml-systems-public](https://github.com/MLSystemsRI/ml-systems-public)** —
+> it contains the deep architecture docs (the Value Chain, the Master Ledger, the
+> Collective Ontology, Ontological Compression, and the Seven Minds), the mobile app UI
+> source, screenshots, and the SEO knowledge that used to live here. This repository is
+> archived and read-only.
+
 <div align="center">
 
 <img src="assets/app-icon.png" alt="ML Systems" width="120" height="120" style="border-radius:24px" />
